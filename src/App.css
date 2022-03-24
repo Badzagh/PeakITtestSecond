@@ -1,0 +1,43 @@
+#app {
+  margin: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 20px;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-bottom: 10px;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
+  padding: 8px;
+}
+#button-add {
+  background-color: #112D4E;
+  color: #F9F7F7;
+  margin-bottom: 10px;
+}
+#button-generate {
+  background-color: #112D4E;
+  color: #F9F7F7;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.delete-btn {
+  cursor: pointer;
+  height: 20px;
+  border: none;
+  background-color: #112D4E;
+  color: white;
+  width: 55px;
+  height: 20px;
+}
+
+
+

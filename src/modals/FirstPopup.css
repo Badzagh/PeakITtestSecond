@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+.first-popup {
+    max-width: 2807px;
+    max-height: 6383px;
+    width: 100%;
+    height: 100%;
+    background-color: #1f4355;
+    color: white;
+    padding-top: 10px;
+}
+.first-popup header {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    background-color: white;
+}
+.first-popup h1 {
+    width: 320px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: #221f20;
+    font-family: "Graphik Wide";
+    margin: 0;
+    padding-left: 14px;
+}
+.first-popup header svg {
+    width: 20px;
+    height: 20px;
+    padding-right: 9px;
+}
+.first-popup section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.first-popup section svg {
+    width: 90%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first-popup section div {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid white;
+}
+.first-popup section h2 {
+    width: 200px;
+    padding-right: 36%;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.first-popup section p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.first-popup section ul {
+    margin: 0;
+    width: 90%;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
