@@ -6,7 +6,7 @@ const SecondPopup = () => (
     <div className='second-popup'>
         <header>
             <h1>EARN BONUS POINTS.</h1>
-            <Link to="/tier"><CloseLogo /></Link>
+            <Link to="/tier"><CloseLogo alt="close logo"/></Link>
         </header>
         <section>
             <p>Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>

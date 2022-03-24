@@ -8,11 +8,10 @@ import { useState } from "react";
 const Tier = ({index, setIndex, answerRight, setAnswerRight, answerWrong, setAnswerWrong}) => (
 
     
-
     <div className='tier'>
         <header>
             <h1>*NEW TIER!*</h1>
-            <Link to="/"><CloseLogo /></Link>
+            <Link to="/"><CloseLogo alt="close logo"/></Link>
         </header>
         <section>
             <h2>How old nights are for Gold Silver?</h2>
@@ -26,8 +25,6 @@ const Tier = ({index, setIndex, answerRight, setAnswerRight, answerWrong, setAns
             
                 <span onClick={(e) => {setAnswerWrong(true); e.target.style.backgroundColor = "gray"; setTimeout(() => {window.location.reload()},3000)}}></span>
                 
-                
-                
             </div>
             <div>
                 <label>15</label>
@@ -35,10 +32,10 @@ const Tier = ({index, setIndex, answerRight, setAnswerRight, answerWrong, setAns
                 <label>30</label>
             </div>
             {answerWrong &&
-                <LayerLogo className='try-again'/>
+                <LayerLogo className='try-again' alt="wrong answer"/>
             }
             {answerRight &&
-                <BackgroundLogo className='try-again'/>
+                <BackgroundLogo className='try-again' alt="right answer"/>
             }
         
             <h3>TRY AGAIN</h3>

@@ -7,10 +7,10 @@ const FisrtPopup = () => (
     <div className='first-popup'>
         <header>
             <h1>CONFIRMABLE SUITE UPGRIDE</h1>
-            <Link to="/second-popup"><CloseLogo /></Link>
+            <Link to="/second-popup"><CloseLogo alt="close logo"/></Link>
         </header>
         <section>
-            <Bigimg />
+            <Bigimg alt="sleeping room"/>
             <div>
                 <h2>ABCDEFG HGFASQWEQWR</h2>
             </div>
