@@ -18,13 +18,13 @@ const Tier = ({index, setIndex, answerRight, setAnswerRight, answerWrong, setAns
             <h2>How old nights are for Gold Silver?</h2>
             <div>
             
-                <span onClick={(e) => {setAnswerWrong(true); e.target.style.backgroundColor = "gray"; setTimeout(() => {window.location.reload()},1000)}}></span>
+                <span onClick={(e) => {setAnswerWrong(true); e.target.style.backgroundColor = "gray"; setTimeout(() => {window.location.reload()},3000)}}></span>
 
                 
-                <span onClick={(e) => {setAnswerRight(true); e.target.style.backgroundColor = "#e8542c"; setTimeout(() => {window.location.reload()},1000)}}></span>
+                <span onClick={(e) => {setAnswerRight(true); e.target.style.backgroundColor = "#e8542c"; setTimeout(() => {window.location.reload()},3000)}}></span>
                 
             
-                <span onClick={(e) => {setAnswerWrong(true); e.target.style.backgroundColor = "gray"; setTimeout(() => {window.location.reload()},1000)}}></span>
+                <span onClick={(e) => {setAnswerWrong(true); e.target.style.backgroundColor = "gray"; setTimeout(() => {window.location.reload()},3000)}}></span>
                 
                 
                 
@@ -35,10 +35,10 @@ const Tier = ({index, setIndex, answerRight, setAnswerRight, answerWrong, setAns
                 <label>30</label>
             </div>
             {answerWrong &&
-                <LayerLogo />
+                <LayerLogo className='try-again'/>
             }
             {answerRight &&
-                <BackgroundLogo />
+                <BackgroundLogo className='try-again'/>
             }
         
             <h3>TRY AGAIN</h3>

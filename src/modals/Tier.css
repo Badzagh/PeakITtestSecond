@@ -42,7 +42,8 @@
     margin-right: auto;
 }
 .tier section div {
-    width: 90%;
+    width: 80%;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -75,4 +76,9 @@
     color: #e8542c;
     margin-left: auto;
     margin-right: auto;
+}
+.try-again {
+    margin-top: 30px;
+    width: 60px !important;
+    height: 60px !important;
 }
